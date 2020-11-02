@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.BoxWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+
+  @media only screen and (min-width: 975px) {
+    margin-top: 100px;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
